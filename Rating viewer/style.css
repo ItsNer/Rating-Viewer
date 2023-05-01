@@ -1,0 +1,79 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #000000;
+}
+
+body{
+	font-family: 'arial', 'sans-serif';
+}
+
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.container h3{
+	font-size: 2rem;
+	padding: 1.5rem;	
+}
+
+.container .circle{
+	width: 100px;
+	overflow: hidden;
+}
+
+.container .circle .emoji{
+	display: flex;
+	justify-content: center;
+	background-color: red;
+	margin-bottom: 2rem;
+	transform: translateX(200px);
+	transition: 0.3s;
+}
+
+.container .emoji img{
+	width: 100%;
+}
+
+.container .rating{
+	text-align: center;	
+	background-color: black;
+	height: 40px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.container .rating .rating-names{
+	transform: translateY(0px);
+	transition: 0.3s;
+}
+
+.container .rating .rating-names p{
+	color: #ffffff;
+	font-size: 1.2rem;
+	margin: 0.5rem;
+}
+
+
+
+
+
+.star{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -1.5rem;
+}
+
+.star .star-emoji{
+	font-size: 7rem;
+	margin: 0.5rem;
+	color: #000000;
+}
+
